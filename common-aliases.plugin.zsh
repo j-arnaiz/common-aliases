@@ -46,6 +46,15 @@ alias unexport='unset'
 
 alias whereami=display_info
 
+alias cd..='cd ..'
+alias gti='git'
+alias gz='tar czvf'
+alias ugz='tar xzvf'
+
+alias ll='ls -l'
+alias la='ls -la'
+alias sl='ls'
+
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
 if [ ${ZSH_VERSION//\./} -ge 420 ]; then

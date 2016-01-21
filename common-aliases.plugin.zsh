@@ -54,6 +54,8 @@ alias ugz='tar xzvf'
 alias ll='ls -l'
 alias la='ls -la'
 alias sl='ls'
+alias docker-rm='docker ps -aq | xargs docker rm'
+alias docker-rmi='docker images -q | xargs docker rmi'
 
 # zsh is able to auto-do some kungfoo
 # depends on the SUFFIX :)
